@@ -27,24 +27,24 @@ void loop()
 {
   
   digitalWrite(LedVM, ON); // acende o led vermelho
-  digitalWrite(LEDVD, ON); // acende o led vermelho
+  digitalWrite(LEDVD, ON); // acende o led verde
   delay(tempo); // Tempo de 1000 milisegundos
   digitalWrite(LedVM, OFF); // apago led vermelho
-  digitalWrite(LEDVD, OFF); // apago led vermelho
+  digitalWrite(LEDVD, OFF); // apago led verde
   delay(tempo); // Tempo de 1000 milisegundos
   
-  digitalWrite(LedAM, ON); // acende o led vermelho
-  digitalWrite(LEDAM, ON); // acende o led vermelho
+  digitalWrite(LedAM, ON); // acende o led amarelo
+  digitalWrite(LEDAM, ON); // acende o led amarelo
   delay(tempo); // Tempo de 1000 milisegundos
-  digitalWrite(LedAM, OFF); // apago led vermelho
-  digitalWrite(LEDAM, OFF); // apago led vermelho
+  digitalWrite(LedAM, OFF); // apago led amarelo
+  digitalWrite(LEDAM, OFF); // apago led amarelo
   delay(tempo); // Tempo de 1000 milisegundos
   
   digitalWrite(LEDVM, ON); // acende o led vermelho
-  digitalWrite(LedVD, ON); // acende o led vermelho
+  digitalWrite(LedVD, ON); // acende o led verde
   delay(tempo); // Tempo de 1000 milisegundos
   digitalWrite(LEDVM, OFF); // apago led vermelho
-  digitalWrite(LedVD, OFF); // apago led vermelho
+  digitalWrite(LedVD, OFF); // apago led verde
   delay(tempo); // Tempo de 1000 milisegundos
   
 }
